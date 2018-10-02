@@ -1,0 +1,21 @@
+@import 'colorscheme/colors';
+
+body{
+  background-color: $color4;
+}
+
+
+.container{
+  img{
+    width: 100%;
+    height:600px;
+    filter: invert(20%);
+
+
+  &:hover{
+    transition: .3s;
+    transform: scale(1.1);
+          filter: none;
+  }
+}
+}

@@ -1,0 +1,54 @@
+form{
+  width: 500px;
+  margin: auto;
+
+    font-weight: 100;
+    letter-spacing: 5px;
+
+
+      border-radius: 0;
+      border: none;
+      border-bottom: 1px solid black;
+      padding: 20px 10px;
+      box-shadow: none;
+input[id = 'country_name']{
+  position:relative;
+  margin-left: 200px;
+}
+input[id = 'country_continent']{
+  position:relative;
+  margin-left: 146px;
+}input[id = 'country_population']{
+  position:relative;
+  margin-left: 31px;
+}input[id = 'country_language']{
+  position:relative;
+  margin-left: 150px;
+}input[id = 'city_name']{
+  position:relative;
+  margin-left: 90px;
+}input[id = 'city_capcity']{
+  position:relative;
+  margin-left: 15px;
+  transform: scale(1.5);
+}input[id = 'city_country_id']{
+  position:relative;
+  margin-left: 26px;
+}
+
+}
+
+
+input[type = 'submit']{
+  background: #343a40;
+  width: 100%;
+  font-size: 1.5em;
+  color: white;
+
+  &:hover{
+    background: rgb(164, 172, 167);
+    transition: 0.2s;
+    color: #343a40;
+
+  }
+}

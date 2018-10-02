@@ -1,4 +1,22 @@
 <%= form_with(model: country, local: true) do |form| %>
+
+<div>
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+</div>
+<div>
+  <%= form.label :continent %>
+  <%= form.text_field :continent %>
+</div>
+<div>
+  <%= form.label 'Population(Million)' %>
+  <%= form.number_field :population %>
+</div>
+<div>
+  <%= form.label :language %>
+  <%= form.text_field :language %>
+</div>
+
   <% if country.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(country.errors.count, "error") %> prohibited this country from being saved:</h2>

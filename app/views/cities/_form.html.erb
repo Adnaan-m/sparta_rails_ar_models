@@ -1,4 +1,17 @@
 <%= form_with(model: city, local: true) do |form| %>
+<div>
+  <%= form.label 'Name' %>
+  <%= form.text_field :name %>
+</div>
+<div>
+  <%= form.label 'Capital City' %>
+  <%= form.check_box :capcity %>
+</div>
+<div>
+  <%= form.label 'Country ID' %>
+  <%= form.number_field :country_id %>
+</div>
+
   <% if city.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(city.errors.count, "error") %> prohibited this city from being saved:</h2>
