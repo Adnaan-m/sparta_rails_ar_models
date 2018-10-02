@@ -4,4 +4,8 @@
 # Examples:
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+
+
+  City.create(name: 'London', capcity: true)
+  City.create(name: 'Leeds', capcity: false)
+  City.create(name: 'Lyon', capcity: false)
